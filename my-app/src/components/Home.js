@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import './Home.css';
+import '../styles/Home.css';
 
 const GridWrapper = styled.div`
   display: grid;
@@ -13,9 +13,8 @@ const GridWrapper = styled.div`
 `;
 
 export const Home = (props) => (
-    <div>
-    <p class="logo-1">
-    Neon lights
-    </p>
+    <div class="logo-1">
+    <p>Hello</p>
+    <p>World</p>
     </div>
 )

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NaviBar from './NaviBar';
-import {About} from './About';
-import {Post} from './Post';
-import {Home} from './Home';
-import {NoMatch} from './NoMatch';
+import { request } from 'graphql-request';
+import NaviBar from './components/NaviBar';
+import {About} from './components/About';
+import Post from './components/Post';
+import {Home} from './components/Home';
+import {NoMatch} from './components/NoMatch';
 
 function App() {
         return (
