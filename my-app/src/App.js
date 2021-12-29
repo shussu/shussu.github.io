@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { request } from 'graphql-request';
 import NaviBar from './components/NaviBar';
 import {About} from './components/About';
-import Post from './components/Post';
 import {Home} from './components/Home';
 import {NoMatch} from './components/NoMatch';
+import PostTemplate from './components/PostTemplate';
+import PostPage from './PostPage';
 
 function App() {
         return (
@@ -14,9 +14,10 @@ function App() {
                     <NaviBar />
                     <Routes>
                         <Route exact path="/" element={<Home />} />
-                        <Route path="/post" element={<Post />} />
+                        <Route path="/posts" element={<PostPage />} />
                         <Route path="/about" element={<About />} />
-                        <Route component={NoMatch} />
+                        <Route path="*" element={<NoMatch />} />
+                        <Route path="/single-post/:id" element={<PostTemplate />} />
                     </Routes>
                 </Router>
             </React.Fragment>

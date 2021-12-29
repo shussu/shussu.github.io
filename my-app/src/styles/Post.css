@@ -1,5 +1,27 @@
-/* font-family: "Neoneon" */
-@import url(//db.onlinewebfonts.com/c/8174214b59c74c684285ae6b35662282?family=Neoneon);
-* {
+a {
     color: white;
 }
+
+a:hover {
+    color: #192824;
+}
+
+.Article {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    width: 80%;
+    margin: calc(10vh - 10px) auto 0 auto;
+}
+/* 
+.logo-1 {
+    margin: calc(30vh - 30px) auto 0 auto;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-family: "Archivo Black";
+    font-weight: normal;
+    display: block;
+    height: auto;
+    text-align: center;
+    color: white;
+    animation: neon 1s infinite;
+  } */

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 import '../styles/NaviBar.css';
 
 class NaviBar extends Component {
@@ -15,7 +14,7 @@ class NaviBar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
                 <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
-                <Nav.Item><Nav.Link href="/post">Post</Nav.Link></Nav.Item> 
+                <Nav.Item><Nav.Link href="/posts">Posts</Nav.Link></Nav.Item> 
                 <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
               </Nav>
             </Navbar.Collapse>

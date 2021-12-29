@@ -17,3 +17,4 @@ https://codeburst.io/how-to-create-a-navigation-bar-and-sidebar-using-react-3482
 https://freefrontend.com/css-glow-text-effects/ - Neon Text
 https://stackoverflow.com/questions/42928530/how-do-i-load-a-markdown-file-into-a-react-component - Render Markdown in React
 https://jamstack.org/headless-cms/
+https://www.takeshape.io/articles/how-to-use-react-query-with-react-and-graphql/ 
