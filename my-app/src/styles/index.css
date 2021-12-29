@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee&family=Chakra+Petch:wght@500&family=Kanit&family=Press+Start+2P&display=swap');
+/* 
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Press Start 2P', cursive; 
+*/
+@import url(//db.onlinewebfonts.com/c/8174214b59c74c684285ae6b35662282?family=Neoneon);
+/* font-family: "Neoneon" */
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

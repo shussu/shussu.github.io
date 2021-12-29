@@ -1,14 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { QueryClient, QueryClientProvider } from "react-query";
+import { ReactQueryDevtools } from 'react-query/devtools'
+
 import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QueryClientProvider client={queryClient}>
+      <App />
+      {/* Set to true to turn on React Query dev tool */}
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
