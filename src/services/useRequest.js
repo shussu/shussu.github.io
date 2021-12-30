@@ -3,9 +3,11 @@ import { GraphQLClient, gql } from "graphql-request";
 
 const ENDPOINT = 'https://api-us-west-2.graphcms.com/v2/ckxe0tkow4ifv01xi9ms69zca/master';
 
+const access_token = process.env.REACT_APP_GRAPH_CMS_ACCESS_TOKEN;
+
 const graphQLClient = new GraphQLClient(ENDPOINT, {
     headers: {
-      authorization: '',
+      authorization: `Bearer ${access_token}`
     },
 })
 
