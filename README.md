@@ -18,3 +18,7 @@ https://freefrontend.com/css-glow-text-effects/ - Neon Text
 https://stackoverflow.com/questions/42928530/how-do-i-load-a-markdown-file-into-a-react-component - Render Markdown in React
 https://jamstack.org/headless-cms/
 https://www.takeshape.io/articles/how-to-use-react-query-with-react-and-graphql/ 
+
+https://stackoverflow.com/questions/46056414/getting-404-for-links-with-create-react-app-deployed-to-github-pages
+
+https://github.com/facebook/create-react-app/issues/1765
